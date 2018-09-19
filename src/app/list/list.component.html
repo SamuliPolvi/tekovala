@@ -1,3 +1,7 @@
-<p>
-  list works!
-</p>
+<div *ngFor="let poem of poems">
+  <p>
+    {{poem.poem}}<br />
+    Runo #{{poem?.id}}
+  </p>
+  
+<div>

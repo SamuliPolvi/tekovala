@@ -13,6 +13,14 @@ ul.nav {
     box-shadow: none;
 }
 
+.clr-row {
+  margin-top: 3%;
+}
+
 #title {
     letter-spacing: 1em;
+}
+
+#poems {
+  margin: 0 auto;
 }

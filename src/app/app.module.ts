@@ -7,6 +7,8 @@ import { ListComponent } from './list/list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { InfoComponent } from './info/info.component';
 import { PoemComponent } from './poem/poem.component';
+import { PoemService } from './poem-service.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,9 +22,10 @@ import { PoemComponent } from './poem/poem.component';
     BrowserModule,
     ClarityModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PoemService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

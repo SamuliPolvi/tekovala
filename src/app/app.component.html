@@ -5,10 +5,10 @@
       <nav class="subnav">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active">Etusivu</a>
+            <a class="nav-link" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active">Satunnainen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/list" routerLinkActive="active">Selaa</a>
+            <a class="nav-link" routerLink="/list" routerLinkActive="active">Kaikki</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="/info" routerLinkActive="active">Tietoja</a>
@@ -16,7 +16,7 @@
         </ul>
       </nav>
       <div class="clr-row">
-        <div class="clr-col-4 clr-offset-4">
+        <div id="poems" class="clr-col-sm-4 clr-col-md-3">
           <router-outlet></router-outlet>
         </div>
       </div>

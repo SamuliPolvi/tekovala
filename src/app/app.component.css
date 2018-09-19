@@ -1,0 +1,18 @@
+.content-area {
+    text-align: center;
+}
+
+.subnav {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+ul.nav {
+    display: table;
+    padding-left: 0;
+    box-shadow: none;
+}
+
+#title {
+    letter-spacing: 1em;
+}
